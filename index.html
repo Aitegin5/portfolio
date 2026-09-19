@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="ru" style="color-scheme: light; background: #111;">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light">
+<meta name="supported-color-schemes" content="light">
+<meta name="theme-color" content="#111111">
+<title>Наши работы — сайты под ключ</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background:#111; color:#f5f2ea; line-height:1.5; }
+  .hero { padding: 64px 20px 40px; text-align:center; }
+  .hero h1 { font-size: clamp(28px, 6vw, 44px); letter-spacing:-1px; font-weight:700; }
+  .hero p { color:#b9b4a6; max-width: 620px; margin:14px auto 0; font-size: clamp(15px, 2.4vw, 17px); }
+  .badges { display:flex; flex-wrap:wrap; gap:8px; justify-content:center; margin-top:20px; }
+  .badge { background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.16); color:#f5f2ea; border-radius:999px; padding:6px 14px; font-size:13px; }
+  .wrap { max-width: 1020px; margin: 0 auto; padding: 10px 18px 70px; display:grid; grid-template-columns: 1fr; gap: 26px; }
+  .card { background:#1a1a1a; border:1px solid #2c2c2c; border-radius: 18px; overflow:hidden; display:flex; flex-direction:column; }
+  .card-shot img { width:100%; display:block; aspect-ratio: 16/9; object-fit: cover; object-position: top; }
+  .card-main { padding: 20px 22px 22px; display:flex; flex-direction:column; gap:12px; flex:1; }
+  .card-tag { font-size:12px; text-transform:uppercase; letter-spacing:.12em; color:#ffc24d; font-weight:600; }
+  .card h2 { font-size:22px; letter-spacing:-.4px; }
+  .card .desc { color:#b9b4a6; font-size:15px; }
+  .card ul { list-style:none; display:grid; gap:6px; font-size:14px; color:#ded9cc; }
+  .card ul li::before { content:"✓ "; color:#4ade80; }
+  .btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; margin-top:6px; background:#ffc24d; color:#16150f; text-decoration:none;
+         border-radius:999px; padding:14px 22px; font-weight:700; font-size:15px; }
+  .footer { text-align:center; padding: 10px 20px 46px; color:#8a857a; font-size:14px; }
+  .footer a { color:#ffc24d; text-decoration:none; }
+  @media (min-width: 820px) { .wrap { grid-template-columns: 1fr 1fr; } .card.big { grid-column: 1 / -1; } }
+</style>
+</head>
+<body>
+  <div class="hero">
+    <h1>Наши работы — сайты под ключ</h1>
+    <p>Делаем лендинги и полноценные сайты: адаптив под телефон, анимации, заказ через WhatsApp. Сайт вашего магазина — за 24–48 часов, с бесплатным превью до оплаты.</p>
+    <div class="badges">
+      <span class="badge">Адаптив телефон/планшет/ПК</span>
+      <span class="badge">Срок 24–48 часов</span>
+      <span class="badge">Заказ через WhatsApp</span>
+      <span class="badge">Обновления и поддержка</span>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="card big">
+      <div class="card-shot"><img src="img/vita.jpg" alt="Магазин БАД — демо"></div>
+      <div class="card-main">
+        <span class="card-tag">Магазин витаминов и БАД</span>
+        <h2>VITA+ — демо сайта магазина БАД (под ваш магазин)</h2>
+        <p class="desc">Пример сайта магазина: каталог категорий, наборы и подписка со скидкой, заказ в 1 клик, доставка за 2 часа.</p>
+        <ul><li>Каталог: спорт, иммунитет, красота, сон</li><li>Заказ через сайт / WhatsApp / Instagram</li><li>Полностью на русском, адаптив под телефон</li></ul>
+        <a class="btn" href="https://aitegin5.github.io/vita-plus/" target="_blank" rel="noopener">Открыть демо магазина БАД →</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-shot"><img src="img/cbt.jpg" alt="CBT Naryn"></div>
+      <div class="card-main">
+        <span class="card-tag">Туристическая компания</span>
+        <h2>CBT Naryn — туры по Кыргызстану</h2>
+        <p class="desc">Многостраничный сайт: видео-карусель, анимации, мегаменю, карта маршрутов, формы заявок.</p>
+        <ul><li>3 страницы: главная, туры, истории</li><li>Рейтинг Google, отзывы, карусель</li><li>Полный адаптив (проверено на телефоне)</li></ul>
+        <a class="btn" href="https://aitegin5.github.io/cbt-naryn/" target="_blank" rel="noopener">Открыть сайт →</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-shot"><img src="img/joe.jpg" alt="Joe's Clean"></div>
+      <div class="card-main">
+        <span class="card-tag">Клининговая компания</span>
+        <h2>Joe's Clean — клининг</h2>
+        <p class="desc">Лендинг: услуги и цены, отзывы, FAQ, заявка в 1 клик.</p>
+        <ul><li>Галерея работ, рейтинг 5.0</li><li>Кнопка заказа: звонок / WhatsApp</li><li>Адаптив, мобильное меню</li></ul>
+        <a class="btn" href="https://aitegin5.github.io/joes-clean/" target="_blank" rel="noopener">Открыть сайт →</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-shot"><img src="img/airpro.jpg" alt="AirPro HVAC"></div>
+      <div class="card-main">
+        <span class="card-tag">Вентиляция и кондиционирование</span>
+        <h2>AirPro HVAC</h2>
+        <p class="desc">Лендинг: услуги, процесс работы, тарифы, отзывы.</p>
+        <ul><li>Тёмный стиль с анимациями</li><li>Форма заявки, FAQ</li><li>Адаптив, мобильное меню</li></ul>
+        <a class="btn" href="https://aitegin5.github.io/airpro-hvac/" target="_blank" rel="noopener">Открыть сайт →</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-shot"><img src="img/chalk.jpg" alt="CHALK — фитнес"></div>
+      <div class="card-main">
+        <span class="card-tag">Фитнес-клуб</span>
+        <h2>CHALK — Strength</h2>
+        <p class="desc">Тёмный брендовый лендинг с плавной анимацией.</p>
+        <ul><li>Сильный визуал, CTA</li><li>Адаптив под телефон</li></ul>
+        <a class="btn" href="https://aitegin5.github.io/chalk-strength/" target="_blank" rel="noopener">Открыть сайт →</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-shot"><img src="img/plumbing.jpg" alt="FlowRight — сантехника"></div>
+      <div class="card-main">
+        <span class="card-tag">Сантехнические услуги</span>
+        <h2>FlowRight — сантехник</h2>
+        <p class="desc">Лендинг: услуги, ремонт, расценки, отзывы, заявка.</p>
+        <ul><li>Контакты и заявка в 1 клик</li><li>Адаптив, мобильное меню</li></ul>
+        <a class="btn" href="https://aitegin5.github.io/plumbing-services/" target="_blank" rel="noopener">Открыть сайт →</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-shot"><img src="img/blogger.jpg" alt="Личный блог"></div>
+      <div class="card-main">
+        <span class="card-tag">Личный блог</span>
+        <h2>Personal Blogger — блог путешествий</h2>
+        <p class="desc">Личный сайт-блог: истории, галерея, подписка, контакты.</p>
+        <ul><li>Экранная типографика, галерея</li><li>Адаптив, мобильное меню</li></ul>
+        <a class="btn" href="https://aitegin5.github.io/personal-blogger/" target="_blank" rel="noopener">Открыть сайт →</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-shot"><img src="img/portfolio.jpg" alt="Портфолио дизайнера"></div>
+      <div class="card-main">
+        <span class="card-tag">Портфолио дизайнера</span>
+        <h2>Creative Portfolio — портфолио специалиста</h2>
+        <p class="desc">Сайт-визитка с работами: кейсы, услуги, контакты.</p>
+        <ul><li>Тёмный стиль, анимации</li><li>Адаптив, меню «+» на телефоне</li></ul>
+        <a class="btn" href="https://aitegin5.github.io/creative-portfolio/" target="_blank" rel="noopener">Открыть сайт →</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    Хотите такой же сайт для вашего магазина? Напишите нам —
+    <a href="https://wa.me/996500077564" target="_blank" rel="noopener">WhatsApp</a>
+  </div>
+</body>
+</html>
